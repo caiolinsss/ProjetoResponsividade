@@ -34,10 +34,17 @@
     font-size: 18px;    
 }
 
+
 .card_direita{
     display: flex;
     flex-direction: column;
-    margin: 1em auto;   
+    width: 95%;
+    margin: 1em auto;
+      
+}
+
+.card_direita img { 
+    max-width: 125px; 
 }
 
 .card__link{    
