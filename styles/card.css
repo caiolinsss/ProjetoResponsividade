@@ -44,7 +44,7 @@
 }
 
 .card_direita img { 
-    max-width: 125px; 
+    max-width: 100%; 
 }
 
 .card__link{    
@@ -60,6 +60,10 @@
 }
 
 @media screen and (min-width: 1024px) {
+    
+    .card_direita img{ 
+        min-width: 100%; 
+    }
     .card{
         width: 60%;
         margin: 2em auto;        
@@ -71,6 +75,10 @@
 } 
 
 @media screen and (min-width: 1728px) {
+    
+    .card_direita img{ 
+        min-width: 100%; 
+    }
     .card{       
         width: 90%;                
         margin: 6em 8em 5.5em 0;       
