@@ -155,5 +155,9 @@
     .manu{
         margin-right: 20%;         
     }
+    
+    .cabecalho__menu-hamburguer{
+        display: none;
+    }
 
 }
